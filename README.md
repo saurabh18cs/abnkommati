@@ -12,6 +12,6 @@ The utility requires three inputs from the user:
 Here's an example of how to start the utility:
 
 ```python
-join.py --fpath_1 'resources/dataset_one.csv' --fpath_2 'resources/dataset_two.csv' --countries 'United Kingdom' 'Netherlands'
+job.py --fpath_1 'resources/dataset_one.csv' --fpath_2 'resources/dataset_two.csv' --countries 'United Kingdom' 'Netherlands'
 ```
 This command will join the data from 'dataset_one.csv' and 'dataset_two.csv', filter for 'United Kingdom' and 'Netherlands', and save the result as a CSV file in the **client data** directory excluding PII data.
