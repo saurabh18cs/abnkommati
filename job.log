@@ -1,0 +1,19 @@
+2024-05-22 16:07:07,076 - __main__ - INFO - Demo start
+2024-05-22 16:07:07,078 - __main__ - INFO - Argument parser start
+2024-05-22 16:07:07,086 - __main__ - INFO - Parsed filepaths checked
+2024-05-22 16:07:07,134 - __main__ - INFO - Parsed countries checked
+2024-05-22 16:07:07,134 - __main__ - INFO - Argument parser end
+2024-05-22 16:07:36,672 - __main__ - INFO - Spark session created
+2024-05-22 16:07:36,673 - __main__ - INFO - Extraction start
+2024-05-22 16:07:47,601 - __main__ - INFO - DataFrame_1 extracted from CSV
+2024-05-22 16:07:48,355 - __main__ - INFO - DataFrame_2 extracted from CSV
+2024-05-22 16:07:48,356 - __main__ - INFO - Extraction end
+2024-05-22 16:07:48,357 - __main__ - INFO - Transformation start
+2024-05-22 16:07:48,421 - __main__ - INFO - DataFrames joined
+2024-05-22 16:07:48,484 - __main__ - INFO - DataFrames columns renamed
+2024-05-22 16:07:48,624 - __main__ - INFO - DataFrames filtered on countries
+2024-05-22 16:07:48,625 - __main__ - INFO - Transformation end
+2024-05-22 16:07:51,102 - __main__ - INFO - Load start
+2024-05-22 16:07:52,897 - __main__ - INFO - DataFrame written to CSV
+2024-05-22 16:07:52,897 - __main__ - INFO - Load end
+2024-05-22 16:07:52,898 - __main__ - INFO - Demo end
