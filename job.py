@@ -222,7 +222,9 @@ def save(df: DataFrame):
         os.mkdir(new_path)
         logger.info("Destination folder created")
 
-    df.write.mode('overwrite').format('csv').options(header='True', delimiter=',').csv("client_data/result.csv")
+    # df.write.mode('overwrite').format('csv').options(header='True', delimiter=',').csv(os.path.join(new_path, "result.csv"))
+    df.toPandas().to_csv(os.path.join(new_path, "result_version1.csv"), 
+                         header='True', index=False)
     logger.info('DataFrame written to CSV')
     
     logger.info("Load end")
